@@ -1,0 +1,32 @@
+
+GraphedExpression="can2_motor_9.fdbPosition", DisplayFormat=DISPLAY_FORMAT_DEC
+GraphedExpression="pitchPowerSet", DisplayFormat=DISPLAY_FORMAT_DEC
+GraphedExpression="can2_motor_9.position_pid.ref"
+GraphedExpression="can2_motor_9.position_pid.fdb"
+GraphedExpression="can2_motor_9.position_pid.error_sum"
+GraphedExpression="can2_motor_9.position_pid.output"
+GraphedExpression="can2_motor_9.position_pid.error_delta"
+OpenDocument="main.c", FilePath="c:/OneDrive/RM-program/Infantry2021_F407_20210425/Core/Src/main.c", Line=72
+OpenDocument="tasks.c", FilePath="c:/OneDrive/RM-program/Infantry2021_F407_20210425/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3574
+OpenDocument="startup_stm32f407xx.s", FilePath="c:/OneDrive/RM-program/Infantry2021_F407_20210425/MDK-ARM/startup_stm32f407xx.s", Line=160
+OpenDocument="ddog.jdebug", FilePath="C:/OneDrive/RM-program/Infantry2021_F407_20210425/ddog.jdebug", Line=3
+OpenDocument="stm32f4xx_hal_spi.c", FilePath="c:/OneDrive/RM-program/Infantry2021_F407_20210425/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c", Line=1234
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Registers 1", DockArea=BOTTOM, x=1, y=0, w=991, h=106, FilterBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Disassembly", DockArea=BOTTOM, x=1, y=0, w=991, h=106, FilterBarShown=0, ToolBarShown=0, ExecCountersShown=0, InstEncodingsShown=0
+OpenWindow="Source", x=0, y=0, w=0, h=0, FilterBarShown=0, ToolBarShown=0, ExecCountersShown=0
+OpenWindow="Memory 1", DockArea=BOTTOM, x=1, y=0, w=991, h=106, FilterBarShown=0, ToolBarShown=0, EditorAddress=0x0
+OpenWindow="Watched Data", DockArea=RIGHT, x=0, y=0, w=394, h=828, FilterBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=341, h=828, FilterBarShown=1, ToolBarShown=0
+OpenWindow="Data Graph", DockArea=LEFT, x=1, y=0, w=817, h=828, FilterBarShown=0, ToolBarShown=0, VisibleTab=2, SamplingFreq=1 kHz, ClearEvent=NEVER, LegendShown=1, UniformSampleSpacing=0, PinCursor=-1, TimePerDiv=500000
+OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=928, h=122, FilterBarShown=0, ToolBarShown=0
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[100;105;431]
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[144;42;77;131]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[828;100;100;100;252]
+TableHeader="Data Graph", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time                    ";" can2_motor_9.fdbPosition";" pitchPowerSet";" can2_motor_9.position_pid.ref";" can2_motor_9.position_pid.fdb";" can2_motor_9.position_pid.error_sum";" can2_motor_9.position_pid.output";" can2_motor_9.position_pid.error_delta"], ColWidths=[273;53;68;64;58;82;96;110;110]
+TableHeader="Data Graph", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[273;53;60;56;50;74;88;102;102]
+TableHeader="Power Graph", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Channel 0"], ColWidths=[84;119;126]
+TableHeader="RegisterSelectionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Auto";"Name";"Address";"Description"], ColWidths=[27;27;27;27]
+WatchedExpression="can2_motor_9"
+WatchedExpression="pitchPowerSet"
+WatchedExpression="infantry.gimbal.PitchAngle"
